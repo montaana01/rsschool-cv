@@ -10,13 +10,39 @@
 ## Short about me:
 
 ### Goals:
-> Some text
+> Main goal is grown up as front-end developer.  
+> In future I want to be a full-stack developer
+> with knowledge of php and javascript!
 ### Soft and hard skills:
-> 1. Some soft skill
-> 2. Other soft skill
+>#### Soft:
+> 1. I am teachable and that's good!
+> 2. I can work in a team.
+> 3. I know how to find a common language.
+> 4. Accurate.
+> 5. Hardworking. (If the task is interesting, I will work until the morning)
+> 6. Wherever I am, I try to be useful and try to improve, to refine something.
+> 7. I have driver license: B category (cars under 3 500 kg wight in my country).
 
-> 1. Some hard skill
-> 2. Other hard skill
+>#### Hard:
+> 1. HTML and CSS: These languages are the foundation of front-end development.
+> 2. As for layout: I know flexbox and grid.
+> 3. I understand responsive design and know how to apply it.
+> 4. I have experience using the Git version control system.
+> 5. I have experience in different OS: macOS, Linux, Windows.
+> 6. I use the following software in my work:
+     >      - Sublime
+>      - PhpStorm
+>      - WebStorm
+>      - VS Code
+>      - Postman
+>      - TablePlus( for databases)
+>      - XAMPP or MAMP - my local servers
+>      - Figma
+>      - Photoshop
+>      - Virtualbox
+> 7. I can set up server on nginx very basically.
+
+
 ### Experience:
 > Write about work in IT department in BelgGIM
 ## Programming skills:
@@ -52,9 +78,9 @@ Link to repos and websites of projects
 ## Languages:
 
 > Main language is Russian, but I understand Belorussian language and can speak a little bit on them.
-> 
+>
 > English:
-> 
+>
 > Current level of English is A2(at EPAM education platform).
 ## Long text me:
 
