@@ -67,7 +67,10 @@ function multiply(a, b){
 ```
 
 ### Projects:
-Link to repos and websites of projects
+
+#### My portfolio, It's a final part of webdev course [Website](https://yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Portfolio)
+#### My first project at webdev course [Website](https://uber.yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Uber)
+#### My second project at webdev course [Website](https://pulse.yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Pulse_show)
 
 ## Education:
 ### University:
@@ -77,7 +80,9 @@ Link to repos and websites of projects
 
 ### Courses:
 
-> Web-course 2022 Ivan Petrichenko
+> [WEB-developer [2022] - Ivan Petrichenko](https://www.udemy.com/course/webdeveloper/?couponCode=2021PM25)
+>
+> [Git mini course - Egor Wexler](https://wexler.io/course/git/landing)
 
 ## Languages:
 
