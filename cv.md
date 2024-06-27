@@ -44,9 +44,13 @@
 
 
 ### Experience:
-> Write about work in IT department in BelgGIM
+> In 2020, I started making website for my parents on tilda - It's bad experience.
+>
+> In the summer of 2023, thanks to a friend, I find a course about WEB, learn to do markup, learn HTML, CSS, use JS minimally, make simple sites, at the same time I find a job, and after half a year I move to the IT department in the same company. In a new department for me, I try to support a certain number of projects in PHP.
 ## Programming skills:
-> Write about programming skills
+> My main skills in php. I knew about functions, variables, cycles, etc. I have basic understanding of OOP, now I write module for sync 1c-system to our WEB-site, in which clients can select types of measuring instruments and generate documentation for work on them.
+>
+> In my opinion, if you have a basic understanding of any programming language, it won't be difficult for you to understand another language.
 ## Examples of code:
 
 ```javascript
