@@ -3,8 +3,10 @@
 *{
     font-family: "Montserrat Alternates", sans-serif;
     font-style: normal;
-    background: lightskyblue;
     margin: 0;
+}
+body{
+    background: lightskyblue;
 }
 .container{
     width: 1140px;
@@ -85,6 +87,7 @@ header{
     background: rgba(0,0,0,0.0);
     font-weight: 300;
     text-decoration: none;
+    transition: 0.5s;
 }
 .menu_links-item a:hover{
     cursor: pointer;
@@ -102,6 +105,8 @@ header{
 .contacts a{
     color: white;
     text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .contacts a:hover {
     color: #a3ffff;
@@ -187,4 +192,65 @@ header{
 }
 .subskill{
     padding-left: 5px;
+}
+
+.footer{
+    margin-top: 60px;
+    padding: 30px 50px 20px 50px;
+    background-color: #ffffff;
+    min-height: 50px;
+    border-radius: 80px 80px 0 0;
+}
+
+.footer_wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_rs_logo{
+    height: 50px;
+    transition: 0.5s;
+}
+.footer_rs_logo:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.footer_rs_logo img{
+    height: 100%;
+}
+.footer_copyright{
+    position: absolute;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer_socials{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.footer_socials i{
+    transition: 0.5s;
+}
+.footer_socials i:hover{
+    cursor: pointer;
+}
+.footer_telegram i:hover{
+    font-size: 35px;
+}
+.footer_github i:hover{
+    font-size: 55px;
+}
+.footer_telegram i{
+    font-size: 30px;
+    line-height: 30px;
+}
+.footer_github i{
+    padding-left: 20px;
+    font-size: 50px;
 }
