@@ -124,6 +124,10 @@ header{
 .icon{
     font-size: 24px;
 }
+.icon i{
+    color: #ffffff;
+}
+
 .text{
     padding-left: 15px;
 }
@@ -316,8 +320,8 @@ header{
 .project_item:hover {
     scale: 1.05;
 }
-.project_item>a{
-   text-align: center;
+.project_span{
+    display: none;
 }
 .uber{
     background-image: url("https://cdn.icon-icons.com/icons2/2389/PNG/512/uber_logo_icon_144780.png");
@@ -412,6 +416,9 @@ header{
     scale: 1.1;
     cursor: pointer;
 }
+.footer_span{
+    display: none
+}
 .footer_rs_logo img{
     height: 100%;
 }
@@ -431,6 +438,7 @@ header{
     align-items: flex-end;
 }
 .footer_socials i{
+    color: #000000;
     transition: 0.5s;
 }
 .footer_socials i:hover{
