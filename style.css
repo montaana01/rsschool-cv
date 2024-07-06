@@ -6,7 +6,7 @@
     margin: 0;
 }
 body{
-    background: #9fc7dd;
+    background: #64bef1;
 }
 .container{
     width: 1140px;
@@ -153,31 +153,29 @@ header{
 .skills_title{
     text-align: center;
 }
+
+.education_wrapper{
+
+}
+
 .skills_wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    height: 310px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 30px;
     justify-content: space-between;
 }
+.skills_wrapper>div{
+    padding: 10px;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
 .hard_skills>ol ,.soft_skills>ol{
     margin-top: 10px;
 }
-.soft_skills{
-    padding: 10px;
-    height: 100%;
-    width: 500px;
-    border: 3px solid white;
-    border-radius: 20px;
-}
-.hard_skills{
-    height: 100%;
-    padding: 10px;
-    width: 500px;
-    border: 3px solid white;
-    border-radius: 20px;
-}
+
 .hard_skills>h3,.soft_skills>h3{
     text-align: center;
 }
@@ -194,18 +192,57 @@ header{
     padding-left: 5px;
 }
 
+/*experience*/
+.experience{
+    margin-top: 30px;
+}
+.experience_block{
+    padding: 20px 40px 40px 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+.experience_title{
+    text-align: center;
+}
+.experience_wrapper{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.experience_wrapper>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.experience_year{
+    margin: 0 auto;
+    width: min-content;
+    padding: 2px;
+    text-align: center;
+    border: solid;
+    border-image: linear-gradient(21deg, #cb14d1, #5a15f1) 1 / 2px;
+}
+.experience_text{
+    text-indent: 30px;
+}
+
 /*programming*/
 .programming{
     margin-top: 60px;
     min-height: 460px;
 }
-
-.programming .container{
+.programming_block{
     border-radius: 80px;
-    padding: 60px 30px;
+    padding: 40px 30px;
     min-height: 300px;
     background-image: url("https://yakovlevdev.com/rsschool-cv/code.png");
-    background-size: 45px;
+    background-size: 50px;
     background-attachment: fixed;
     background-repeat: repeat;
     background-position: center;
@@ -263,14 +300,12 @@ header{
     text-align: center;
     line-height:40px ;
 }
-
 .projects_wrapper{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
 }
-
 .project_item{
     background-color: white;
     height: 100px;
@@ -304,6 +339,56 @@ header{
     background-position: center;
     border-radius: 0 20px 20px 0;
 }
+/*Education*/
+.education{
+    margin-top: 60px;
+}
+.education_title{
+    text-align: center;
+}
+
+.education_wrapper{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.education_wrapper>div{
+    padding: 20px;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.education_wrapper>div>p{
+    text-indent: 30px;
+    margin-top: 10px;
+}
+.education_courses{
+    margin-top: 15px;
+    text-align: center;
+}
+.courses{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+.courses>a{
+    color: #fff;
+    line-height: 20px;
+    background: rgba(0,0,0,0.0);
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.courses>a:hover{
+    cursor: pointer;
+    color: #a3ffff;
+}
 
 /*footer*/
 .footer{
@@ -313,7 +398,6 @@ header{
     min-height: 50px;
     border-radius: 80px 80px 0 0;
 }
-
 .footer_wrapper{
     position: relative;
     display: flex;

@@ -36,11 +36,9 @@
                 </div>
                 <nav>
                     <ul class="menu_links">
-                        <!--<li class="menu_links-item"><a href="#about">About Me</a></li>-->
                         <li class="menu_links-item fz18"><a href="#skills">Skills</a></li>
                         <li class="menu_links-item fz18"><a href="#programming">Programming</a></li>
                         <li class="menu_links-item fz18"><a href="#education">Education</a></li>
-                        <li class="menu_links-item fz18"><a href="#languages">Languages</a></li>
                     </ul>
                 </nav>
                 <h2>About me</h2>
@@ -150,73 +148,107 @@
     </section>
     <section class="experience" id="experience">
         <div class="container">
-
+            <div class="experience_block">
+                <h2 class="experience_title title">Experience</h2>
+                <div class="experience_wrapper">
+                    <div class="experience_2020">
+                        <div class="experience_year fz24">2020</div>
+                        <div class="experience_text fz18">In 2020, I started making website for my parents on tilda - It's bad experience.
+                        </div>
+                    </div>
+                    <div class="experience_2023">
+                        <div class="experience_year fz24">2023</div>
+                        <div class="experience_text fz18">In the summer of 2023, thanks to a friend, I find a course about WEB, learn to do markup, learn HTML, CSS, use JS minimally, make simple sites, at the same time I find a job, and after half a year I move to the IT department in the same company. In a new department for me, I try to support a certain number of projects in PHP.
+                        </div>
+                    </div>
+                    <div class="experience_2024">
+                        <div class="experience_year fz24">2024</div>
+                        <div class="experience_text fz18">In the end of june of 2023, I want to know JavaScript and I find The Rolling Scopes courses and started using JS in my work/my projects.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="programming" id="programming">
         <div class="container">
-            <h2 class="programming_title title">Programming</h2>
-            <div class="programming_wrapper">
-                <div class="programming_before programming_item">
-                    <h3>Before</h3>
-                    <div class="code fz18">
-                        <code>
-                            function multiply(a, b){<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;a * b<br>
-                            }<br>
-                            var result = multiply(1, 2);<br>
-                            console.log(result);<br>
-                        </code>
+            <div class="programming_block">
+                <h2 class="programming_title title">Programming</h2>
+                <div class="programming_wrapper">
+                    <div class="programming_before programming_item">
+                        <h3>Before</h3>
+                        <div class="code fz18">
+                            <code>
+                                function multiply(a, b){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;a * b<br>
+                                }<br>
+                                var result = multiply(1, 2);<br>
+                                console.log(result);<br>
+                            </code>
+                        </div>
+                        <div class="result fz18">
+                            <code>
+                                result: Undefined.
+                            </code>
+                        </div>
                     </div>
-                    <div class="result fz18">
-                        <code>
-                            result: Undefined.
-                        </code>
+                    <div class="programming_after programming_item">
+                        <h3>After</h3>
+                        <div class="code fz18">
+                            <code>
+                                function multiply(a, b){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;return a * b<br>
+                                }<br>
+                                const result = multiply(1, 2);<br>
+                                console.log(result);<br>
+                            </code>
+                        </div>
+                        <div class="result fz18">
+                            <code>
+                                result: 3.
+                            </code>
+                        </div>
                     </div>
                 </div>
-                <div class="programming_after programming_item">
-                    <h3>After</h3>
-                    <div class="code fz18">
-                        <code>
-                            function multiply(a, b){<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;return a * b<br>
-                            }<br>
-                            const result = multiply(1, 2);<br>
-                            console.log(result);<br>
-                        </code>
+                <article class="projects">
+                    <h2 class="projects_title title">Projects</h2>
+                    <div class="projects_wrapper">
+                        <a href="https://uber.yakovlevdev.com" target="_blank">
+                            <div class="project_item uber"></div>
+                        </a>
+                        <a href="https://pulse.yakovlevdev.com" target="_blank">
+                            <div class="project_item pulse"></div>
+                        </a>
+                        <a href="https://yakovlevdev.com" target="_blank">
+                            <div class="project_item portfolio"></div>
+                        </a>
                     </div>
-                    <div class="result fz18">
-                        <code>
-                            result: 3.
-                        </code>
-                    </div>
-                </div>
+                </article>
             </div>
-        <article class="projects">
-            <h2 class="projects_title title">Projects</h2>
-            <div class="projects_wrapper">
-                <a href="https://uber.yakovlevdev.com" target="_blank">
-                    <div class="project_item uber"></div>
-                </a>
-                <a href="https://pulse.yakovlevdev.com" target="_blank">
-                    <div class="project_item pulse"></div>
-                </a>
-                <a href="https://yakovlevdev.com" target="_blank">
-                    <div class="project_item portfolio"></div>
-                </a>
-            </div>
-        </article>
-
         </div>
     </section>
     <section class="education" id="education">
         <div class="container">
-
-        </div>
-    </section>
-    <section class="languages" id="languages">
-        <div class="container">
-
+            <div class="education_block">
+                <h2 class="education_title title">Education</h2>
+                <div class="education_wrapper">
+                    <div class="education_university">
+                        <h3>University</h3>
+                        <p class="fz18"><b>2024</b> Belarusian State University of Informatics and Radioelectronics / Faculty of radio engineering and electronics /Radio electronics engineer</p>
+                        <p class="fz18"><b>2023</b> Belarusian State University of Informatics and Radioelectronics / 2 years of military department / Reserve officer</p>
+                    </div>
+                    <div class="education_languages">
+                        <h3>Languages</h3>
+                        <p class="fz18">Main language is <b>Russian</b>, but I understand Belorussian language and can speak a little bit on them.</p>
+                        <p class="fz18">English: Current level of <b>English</b> is <b>A2</b>(at EPAM education platform). but at the beginning of July I want to go through it again and maybe raise the level higher!</p>
+                    </div>
+                </div>
+                <h2 class="education_courses title">Courses</h2>
+                <div class="courses">
+                    <a href="https://wexler.io/course/git/landing" class="course fz18">[Git mini course - Egor Wexler]</a>
+                    <a href="https://www.udemy.com/course/webdeveloper/?couponCode=2021PM25" class="course fz18">[WEB-developer [2022] - Ivan Petrichenko]</a>
+                </div>
+            </div>
         </div>
     </section>
 </main>
