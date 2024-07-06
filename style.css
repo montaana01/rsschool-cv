@@ -6,7 +6,7 @@
     margin: 0;
 }
 body{
-    background: lightskyblue;
+    background: #9fc7dd;
 }
 .container{
     width: 1140px;
@@ -144,21 +144,20 @@ header{
 .goals_item::marker{
     padding-left: 5px;
 }
-
 /*skills*/
 .skills{
     padding-top: 60px;
-    min-height: 460px;
+    min-height: 400px;
 }
 
 .skills_title{
     text-align: center;
 }
 .skills_wrapper{
-    height: 355px;
     display: flex;
     flex-direction: row;
     align-items: start;
+    height: 310px;
     padding-top: 30px;
     justify-content: space-between;
 }
@@ -187,13 +186,126 @@ header{
 }
 .subskills{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
+    padding-left: 10px;
 }
 .subskill{
     padding-left: 5px;
 }
 
+/*programming*/
+.programming{
+    margin-top: 60px;
+    min-height: 460px;
+}
+
+.programming .container{
+    border-radius: 80px;
+    padding: 60px 30px;
+    min-height: 300px;
+    background-image: url("https://yakovlevdev.com/rsschool-cv/code.png");
+    background-size: 45px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    z-index: -10;
+}
+.programming_title{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    line-height:40px ;
+}
+.programming_title:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    flex-shrink: 0;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(21deg, #cb14d1, #5a15f1);
+    z-index: -1;
+}
+.programming_wrapper{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.programming_item{
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    background: linear-gradient(21deg, #cb14d1, #5a15f1);
+}
+.programming_item>h3{
+    text-align: center;
+}
+.code{
+    margin: 10px 20px;
+}
+.result{
+    margin: 20px 20px;
+}
+.projects{
+    margin: 30px 30px 0 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(21deg, #cb14d1, #5a15f1);
+}
+.projects_title{
+    position: relative;
+    text-align: center;
+    line-height:40px ;
+}
+
+.projects_wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+
+.project_item{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.project_item:hover {
+    scale: 1.05;
+}
+.project_item>a{
+   text-align: center;
+}
+.uber{
+    background-image: url("https://cdn.icon-icons.com/icons2/2389/PNG/512/uber_logo_icon_144780.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+}
+.pulse{
+    background-image: url("https://pulse.yakovlevdev.com/img/background/first_screen_bg.jpg");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolio{
+    background-image: url("https://yakovlevdev.com/img/main.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+}
+
+/*footer*/
 .footer{
     margin-top: 60px;
     padding: 30px 50px 20px 50px;
