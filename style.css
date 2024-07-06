@@ -114,6 +114,7 @@ header{
     cursor: pointer;
 }
 .contacts_wrapper{
+    padding-left: 0;
 }
 .contacts_item{
     display: flex;
