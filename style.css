@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700;900&display=swap');
+
+*{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+body{
+    background: #64bef1;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    color: white;
+}
+
+.title{
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.fz24{
+    font-size: 24px;
+    line-height: 26px;
+}
+.fz20{
+    font-size: 20px;
+    line-height: 22px;
+}
+.fz18{
+    font-size: 18px;
+    line-height: 18px;
+}
+
+header{
+    height: 505px;
+}
+/*about*/
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about_wrapper-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_wrapper-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_picture{
+    height: 450px;
+}
+.about_picture img{
+    height: 100%;
+    border-radius: 0 20% 40% 200%;
+}
+.about_text h1{
+    font-size: 46px;
+    line-height: 54px;
+}
+
+.about_title{
+    padding-top: 20px;
+}
+.menu_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.menu_links-item{
+    display: block;
+    border-right:1px solid white ;
+    padding-right: 40px;
+}
+.menu_links-item a{
+    color: #fff;
+    line-height: 20px;
+    background: rgba(0,0,0,0.0);
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu_links-item a:hover{
+    cursor: pointer;
+    color: #a3ffff;
+}
+.menu_links-item:last-child{
+    border-right: none;
+}
+
+/*contacts*/
+.contacts{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.contacts a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contacts a:hover {
+    color: #a3ffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contacts_wrapper{
+}
+.contacts_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+.icon{
+    font-size: 24px;
+}
+.text{
+    padding-left: 15px;
+}
+
+/*goals*/
+.goals{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.goals_list{
+    padding-left: 15px;
+}
+.goals_item{
+    padding-top: 10px;
+    padding-left: 10px;
+    list-style-type: ">";
+}
+.goals_item::marker{
+    padding-left: 5px;
+}
+/*skills*/
+.skills{
+    padding-top: 60px;
+    min-height: 400px;
+}
+
+.skills_title{
+    text-align: center;
+}
+
+.education_wrapper{
+
+}
+
+.skills_wrapper{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.skills_wrapper>div{
+    padding: 10px;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.hard_skills>ol ,.soft_skills>ol{
+    margin-top: 10px;
+}
+
+.hard_skills>h3,.soft_skills>h3{
+    text-align: center;
+}
+.skill{
+    font-size: 16px;
+}
+.subskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding-left: 10px;
+}
+.subskill{
+    padding-left: 5px;
+}
+
+/*experience*/
+.experience{
+    margin-top: 30px;
+}
+.experience_block{
+    padding: 20px 40px 40px 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+.experience_title{
+    text-align: center;
+}
+.experience_wrapper{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.experience_wrapper>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.experience_year{
+    margin: 0 auto;
+    width: min-content;
+    padding: 2px;
+    text-align: center;
+    border: solid;
+    border-image: linear-gradient(21deg, #cb14d1, #5a15f1) 1 / 2px;
+}
+.experience_text{
+    text-indent: 30px;
+}
+
+/*programming*/
+.programming{
+    margin-top: 60px;
+    min-height: 460px;
+}
+.programming_block{
+    border-radius: 80px;
+    padding: 40px 30px;
+    min-height: 300px;
+    background-image: url("https://yakovlevdev.com/rsschool-cv/code.png");
+    background-size: 50px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    z-index: -10;
+}
+.programming_title{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    line-height:40px ;
+}
+.programming_title:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    flex-shrink: 0;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(21deg, #cb14d1, #5a15f1);
+    z-index: -1;
+}
+.programming_wrapper{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.programming_item{
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    background: linear-gradient(21deg, #cb14d1, #5a15f1);
+}
+.programming_item>h3{
+    text-align: center;
+}
+.code{
+    margin: 10px 20px;
+}
+.result{
+    margin: 20px 20px;
+}
+.projects{
+    margin: 30px 30px 0 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(21deg, #cb14d1, #5a15f1);
+}
+.projects_title{
+    position: relative;
+    text-align: center;
+    line-height:40px ;
+}
+.projects_wrapper{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+.project_item{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.project_item:hover {
+    scale: 1.05;
+}
+.project_item>a{
+   text-align: center;
+}
+.uber{
+    background-image: url("https://cdn.icon-icons.com/icons2/2389/PNG/512/uber_logo_icon_144780.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+}
+.pulse{
+    background-image: url("https://pulse.yakovlevdev.com/img/background/first_screen_bg.jpg");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.portfolio{
+    background-image: url("https://yakovlevdev.com/img/main.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 20px 20px 0;
+}
+/*Education*/
+.education{
+    margin-top: 60px;
+}
+.education_title{
+    text-align: center;
+}
+
+.education_wrapper{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.education_wrapper>div{
+    padding: 20px;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.education_wrapper>div>p{
+    text-indent: 30px;
+    margin-top: 10px;
+}
+.education_courses{
+    margin-top: 15px;
+    text-align: center;
+}
+.courses{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+.courses>a{
+    color: #fff;
+    line-height: 20px;
+    background: rgba(0,0,0,0.0);
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.courses>a:hover{
+    cursor: pointer;
+    color: #a3ffff;
+}
+
+/*footer*/
+.footer{
+    margin-top: 60px;
+    padding: 30px 50px 20px 50px;
+    background-color: #ffffff;
+    min-height: 50px;
+    border-radius: 80px 80px 0 0;
+}
+.footer_wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_rs_logo{
+    height: 50px;
+    transition: 0.5s;
+}
+.footer_rs_logo:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.footer_rs_logo img{
+    height: 100%;
+}
+.footer_copyright{
+    position: absolute;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer_socials{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.footer_socials i{
+    transition: 0.5s;
+}
+.footer_socials i:hover{
+    cursor: pointer;
+}
+.footer_telegram i:hover{
+    font-size: 35px;
+}
+.footer_github i:hover{
+    font-size: 55px;
+}
+.footer_telegram i{
+    font-size: 30px;
+    line-height: 30px;
+}
+.footer_github i{
+    padding-left: 20px;
+    font-size: 50px;
+}
