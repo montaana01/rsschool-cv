@@ -317,6 +317,32 @@ header{
 .project_item:hover {
     scale: 1.05;
 }
+.git_links{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+.git_link{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.git_link:hover {
+    scale: 1.05;
+}
+.uber_git{
+    border-radius: 0 0 0 20px;
+}
+.portfolio_git{
+    border-radius: 0 0 20px 0;
+}
 .project_span{
     display: none;
 }
@@ -325,7 +351,7 @@ header{
     background-size: 80px;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 0;
 }
 .pulse{
     background-image: url("https://pulse.yakovlevdev.com/img/background/first_screen_bg.jpg");
@@ -338,8 +364,9 @@ header{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 0 0;
 }
+
 /*Education*/
 .education{
     margin-top: 60px;
@@ -675,6 +702,17 @@ header{
     }
     .projects{
         margin: 0;
+    }
+    .project_item {
+        height: 60px;
+    }
+    .portfolio {
+        background-size: 100px;
+    }
+    .git_link {
+        height: 10px;
+        background-size: 25px;
+        padding: 10px;
     }
     .education {
         margin-top: 30px;
