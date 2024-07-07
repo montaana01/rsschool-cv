@@ -33,7 +33,7 @@ body{
 }
 
 header{
-    height: 505px;
+    min-height: 505px;
 }
 /*about*/
 .about{
@@ -159,20 +159,16 @@ header{
     text-align: center;
 }
 
-.education_wrapper{
-
-}
-
 .skills_wrapper{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
     padding-top: 30px;
     justify-content: space-between;
 }
 .skills_wrapper>div{
     padding: 10px;
-    width: 500px;
     border: 3px solid white;
     border-radius: 20px;
 }
@@ -356,13 +352,13 @@ header{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
     padding-top: 30px;
     justify-content: space-between;
 }
 
 .education_wrapper>div{
     padding: 20px;
-    width: 500px;
     border: 3px solid white;
     border-radius: 20px;
 }
@@ -458,4 +454,264 @@ header{
 .footer_github i{
     padding-left: 20px;
     font-size: 50px;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .about_picture {
+        height: 400px;
+    }
+    .menu_links{
+        padding: 15px 20px;
+    }
+    .menu_links-item {
+        padding-right: 20px;
+    }
+    .icon {
+        font-size: 22px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .about_wrapper-left {
+        justify-content: space-between;
+    }
+    .about_picture {
+        height: 300px;
+    }
+    .about_title {
+        padding-top: 10px;
+    }
+    .menu_links {
+        padding: 5px;
+    }
+    .menu_links-item {
+        padding-right: 10px;
+    }
+    .contacts {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .icon {
+        font-size: 18px;
+        width: 20px;
+    }
+    .goals {
+        padding-left: 15px;
+    }
+    .goals_item {
+        padding-left: 5px;
+    }
+    .hard_skills>ol, .soft_skills>ol {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about_picture {
+        height: 400px;
+    }
+    .menu_links {
+        padding: 15px;
+    }
+    .menu_links-item {
+        font-size: 20px;
+        padding-right: 25px;
+    }
+    .contacts_wrapper {
+        padding-left: 20px;
+    }
+    .goals_list {
+        padding-left: 35px;
+    }
+    .skills_wrapper {
+        grid-template-columns: none;
+        column-gap: 0;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+    }
+    .subskills {
+        grid-template-columns: 1fr 1fr;
+    }
+    .experience_block {
+        padding: 20px;
+    }
+    .experience_text {
+        text-indent: 20px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .programming_block {
+        border-radius: 40px;
+        padding: 30px 20px;
+    }
+    .programming_wrapper {
+        margin: 30px 30px 0 30px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .programming_item{
+        width: 100%;
+    }
+    .pulse {
+        background-position: 30%;
+    }
+
+    .education_wrapper {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 0;
+        row-gap: 30px;
+    }
+    .education_wrapper>div>h3{
+        text-align: center;
+    }
+    .footer {
+        padding: 30px 30px 20px 30px;
+        border-radius: 70px 70px 0 0;
+    }
+    .footer_rs_logo {
+        height: 40px;
+    }
+    .footer_copyright>span{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+        width: 100%;
+    }
+    .about_picture {
+        height: 250px;
+    }
+    .about_text h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .about_title{
+        display: none;
+    }
+    .about_wrapper-right>h2{
+        display: none;
+    }
+    .title {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .menu_links {
+         padding: 5px;
+    }
+    .menu_links-item {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    .contacts {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .contacts_wrapper {
+        padding-left: 10px;
+    }
+    .text {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .goals {
+        padding-left: 0;
+    }
+    .goals_list {
+        padding-left: 20px;
+    }
+    .goals_item {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .skills {
+        padding-top: 30px;
+    }
+    .skills_wrapper {
+        grid-template-rows: none;
+    }
+    .experience_block {
+        padding: 10px;
+    }
+    .experience_wrapper>div {
+        column-gap: 10px;
+    }
+    .experience_year{
+        font-size: 16px;
+    }
+    .experience_text{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .programming {
+        margin-top: 30px;
+    }
+    .programming_block {
+        padding: 30px 5px;
+        background-size: 35px;
+    }
+    .programming_wrapper {
+        margin: 0;
+    }
+    .projects{
+        margin: 0;
+    }
+    .education {
+        margin-top: 30px;
+    }
+    .courses {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+    .courses>a {
+    text-align: center;
+    }
+    .footer {
+        padding: 20px 20px 10px 20px;
+        border-radius: 50px 50px 0 0;
+        min-height: 40px;
+    }
+    .footer_rs_logo {
+        height: 20px;
+    }
+    .footer_copyright {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footer_socials {
+        height: 40px;
+    }
+    .footer_telegram i {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .footer_github i {
+        padding-left: 10px;
+        font-size: 40px;
+    }
+
 }
