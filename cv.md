@@ -1,6 +1,6 @@
 ![ALexey Yakovlev](https://avatars.githubusercontent.com/u/75353637?v=4)
 
-# ALexey Yakovlev
+# Alexey Yakovlev
 
 ## Contacts:
 
@@ -19,8 +19,7 @@
 ### Goals:
 
 > Main goal is grown up as front-end developer.  
-> In future I want to be a full-stack developer
-> with knowledge of Javascript, React and node!
+> In future I want to be a full-stack developer with knowledge of Javascript, React and node!
 
 ### Soft and hard skills:
 
