@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700;900&display=swap');
 
 *{
+    scroll-behavior: smooth;
     font-family: "Montserrat Alternates", sans-serif;
     font-style: normal;
     margin: 0;
+     transition: all 0.5s ease;
 }
 body{
     background: #64bef1;
@@ -272,7 +274,6 @@ header{
     padding: 30px 30px 0 30px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 }
 .programming_item{
@@ -346,9 +347,9 @@ header{
 .project_span{
     display: none;
 }
-.uber{
-    background-image: url("https://cdn.icon-icons.com/icons2/2389/PNG/512/uber_logo_icon_144780.png");
-    background-size: 80px;
+.babble{
+    background-image: url("https://babble.yakovlevdev.com/static/media/babble_logo.19dcf8d3c3e4574904b1.png");
+    background-size: 260px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px 0 0 0;
@@ -403,7 +404,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    column-gap: 60px;
+    column-gap: 30px;
 }
 .courses>a{
     color: #fff;
