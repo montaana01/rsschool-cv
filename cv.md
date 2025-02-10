@@ -87,14 +87,52 @@ after:
 
 ### Projects:
 
-#### My portfolio, It's a final part of webdev course [Website](https://yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Portfolio)
+#### First site created on tilda in 2021 for my parents 
+>
+> >#### Old site on tilda [Website](https://montaana01.github.io/orsha_shar/page16831385) | [GitHub](https://github.com/montaana01/orsha_shar/tree/tilda-2021-project)
+>
+> > #### On html + css (in progress) [Website](https://orsha-shar.yakovlevdev.com) | [GitHub](https://github.com/montaana01/Orsha_shar)
 
-#### My first project at webdev course [Website](https://babble.yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Uber)
+#### My first project at webdev course:
+> When I had deployed this project Uber send me sent me a notice that I was violating copyright and I decided to rewrite the project in React without knowledge; in the future I plan to rewrite it again more correctly!
+>> #### On course in 2023: [Website](https://montaana01.github.io/Uber/) | [GitHub:main](https://github.com/montaana01/Uber/tree/main)
+>
+>> #### Update after notice: [Website](https://babble.yakovlevdev.com/) | [GitHub:react-bubble](https://github.com/montaana01/Uber/tree/react-bubble)
 
-#### My second project at webdev course [Website](https://pulse.yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Pulse_show)
+#### My second project at webdev course 
+> #### E-commerce landing shop [Website](https://pulse.yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Pulse_show)
 
-<todo>
-<add here projects from stage>
+#### Last project at webdev course
+> #### Webdev-course final part - portfolio (information not finished yet)  [Website](https://yakovlevdev.com/) | [GitHub](https://github.com/montaana01/Portfolio)
+
+#### Stage-0 projects
+>> #### CSS-slider [Website](https://montaana01.github.io/cssMemeSlider/cssMemeSlider/) | [GitHub](https://github.com/montaana01/cssMemeSlider/tree/gh-pages) 
+> 
+>> #### Shelter dual page landing [Website](https://rolling-scopes-school.github.io/montaana01-JSFEPRESCHOOL2024Q2/shelter/pages/main/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFEPRESCHOOL2024Q2)
+> 
+>> #### Js Audio-player [Website](https://rolling-scopes-school.github.io/montaana01-JSFEPRESCHOOL2024Q2/audio-player/pages/main/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFEPRESCHOOL2024Q2)
+> 
+>> #### Js Image Search [Website](https://rolling-scopes-school.github.io/montaana01-JSFEPRESCHOOL2024Q2/image-gallery/pages/main/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFEPRESCHOOL2024Q2)
+> 
+>> #### Js 2048 Game [Website](https://rolling-scopes-school.github.io/montaana01-JSFEPRESCHOOL2024Q2/random-game/pages/main/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFEPRESCHOOL2024Q2)
+
+#### Stage-1 projects
+>> #### Christmas-shop [Website](https://rolling-scopes-school.github.io/montaana01-JSFE2024Q4/christmas-shop/pages/Home/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFE2024Q4)
+>
+>> #### Simon-says [Website](https://rolling-scopes-school.github.io/montaana01-JSFE2024Q4/simon-says/pages/main/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFE2024Q4)
+>
+>> #### Nonograms [Website](https://rolling-scopes-school.github.io/montaana01-JSFE2024Q4/nonograms/pages/main/) | [GitHub](https://github.com/rolling-scopes-school/montaana01-JSFE2024Q4)
+>
+
+#### Pets-project 
+> #### Site for company with site-panel in Telegram (Not finished yet)
+>> #### Website that get information from site API [Website](https://sdu.yakovlevdev.com) | [GitHub](https://github.com/montaana01/SDU)
+> 
+>> #### API on PHP but in future planned replace php to node.js [GitHub](https://github.com/montaana01/api.sdu)
+> 
+>> #### Telegram-bot on PHP SDK but in future planned replace php sdk to js sdk [GitHub](https://github.com/montaana01/bot.sdu)
+
+> Service for your document templates and storage for they...(in progress)
 
 ## Education:
 
